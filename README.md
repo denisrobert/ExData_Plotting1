@@ -26,9 +26,9 @@ In the source dataset, the variables are as shown below:
 
 The only modifications made to the dataset prior to generating the graph have been:
 
-* Converting "?" characters to "NA" in order to be correctly processed as missing values by R.
-* Converting numeric values in character for to proper numeric values.
-* Combining Date and Time columns into an additional, single POSIXct DateTime column in order to make filtering and graphing simpler.
+- Converting "?" characters to "NA" in order to be correctly processed as missing values by R.
+- Converting numeric values in character for to proper numeric values.
+- Combining Date and Time columns into an additional, single POSIXct DateTime column in order to make filtering and graphing simpler.
 
 
 
