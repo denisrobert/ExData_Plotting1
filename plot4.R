@@ -7,7 +7,7 @@
 source("./read_data.R")
 
 # open the PNG graphics device.
-png(file="plot4.png", width=480, height=480, units="px")
+png(file="plot4.png", width=480, height=480, units="px", bg="transparent")
 with(filtered, {
   # set the device to render graphics in a 2x2 grid, filled by row.
   par(mfrow=c(2,2))

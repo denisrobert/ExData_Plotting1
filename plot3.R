@@ -7,7 +7,7 @@
 source("./read_data.R")
 
 # open the PNG graphics device.
-png(file="plot3.png", width=480, height=480, units="px")
+png(file="plot3.png", width=480, height=480, units="px", bg="transparent")
 with(filtered, {
   # generate a base graph with no data points, and only a y axis label
   plot(DateTime, Sub_metering_1, type="n", main="", xlab="", ylab="Energy sub metering")

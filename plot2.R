@@ -7,7 +7,7 @@
 source("./read_data.R")
 
 # open the PNG graphics device.
-png(file="plot2.png", width=480, height=480, units="px")
+png(file="plot2.png", width=480, height=480, units="px", bg="transparent")
 
 with(filtered, {
   # generate the base graph, without any data, and with only a y axis label

@@ -7,7 +7,7 @@
 source("./read_data.R")
 
 # open the PNG graphics device.
-png(file="plot1.png", width=480, height=480, units="px")
+png(file="plot1.png", width=480, height=480, units="px", bg="transparent")
 
 # Generate a histogram plotting the Global Active Power against the time axis
 #  with appropriate axis labels, and in red.
