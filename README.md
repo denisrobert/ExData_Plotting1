@@ -34,10 +34,11 @@ The only modifications made to the dataset prior to generating the graph have be
 
 ## Scripts included in the project
 
-There are 5 script included in the project.
+There are 6 script included in the project.
 
 read_data.R: A shared script, sourced by the other scripts in order to read the dataset and prepare it for graphing.
 plot[1-4].R: Four scripts to generate successively more complex graphs, matching the requirements of the exercise.
+generate_plots.R: A simple utility to unzip the dataset, generate all plots, then remove the unzipped datafile.
 
 
 
